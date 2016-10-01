@@ -1,0 +1,31 @@
+# PostgreSQL. Versions 9.1 and up are supported.
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: railsapi_development
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+
+staging:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: railsapi_development
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: railsapi_development
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
